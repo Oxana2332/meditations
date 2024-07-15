@@ -1,0 +1,190 @@
+/*подключение шрифтов*/
+@font-face {
+    font-family: "Merienda One";
+    src: url(./../fonts/MeriendaOne/MeriendaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Heebo Medium";
+    src: url(./../fonts/Heebo/Heebo-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url(./../fonts/Heebo/Heebo-Regular.ttf);
+}
+
+.header {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.header_logo {
+    margin-left: 7vw;
+    margin-top: 2px;
+    width: 7%;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header_nav-link {
+    margin-left: 4.5vw;
+    font-family: "Heebo";
+    text-decoration: none;
+    font-size: 1.7em;
+    color: #000000;
+}
+
+.active {
+    margin-left: 23vw;
+    font-family: "Heebo Medium";
+    font-size: 2.1em;
+    color: #1a7f72;
+    text-decoration-line: underline;
+    text-underline-offset: 1.1em;
+    text-decoration-thickness: 0.3em;
+}
+
+.main {
+    background-color: rgb(59 209 187/0.2);
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./../images/main-bg.svg");
+    background-repeat: no-repeat;
+    height: 74em;
+}
+
+.title {
+    font-family: "Merienda One";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 4.5em;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.text {
+    font-family: "Heebo";
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.button {
+    font-family: "Heebo";
+    color: #ffffff;
+    background: linear-gradient(#259385, #159685);
+    border: 0;
+    border-radius: 50px;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    width: 16vw;
+    align-self: center;
+    margin-top: 5vh;
+    padding: 1%;
+}
+
+.img {
+    width: 37em;
+    align-self: center;
+    margin-top: 12vh;
+}
+
+.second_section {
+    display: flex;
+    height: 77vh;
+    font-family: "Heebo";
+    color: #000000;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vh;
+    width: 100%;
+    margin-top: 14vh;
+    padding: 5% 10%;
+}
+
+.meditation {
+    background-image: url("./../images/meditation.svg");
+}
+
+.yoga {
+    background-image: url("./../images/yoga.svg");
+}
+
+.sound {
+    background-image: url("./../images/sound.svg");
+}
+
+.figure_img {
+    width: 3vw;
+    align-self: center;
+}
+
+.figure_title {
+    font-size: 2em;
+    margin-bottom: 1vh;
+    margin-top: 3vh;
+}
+
+.figure_text {
+    text-align: center;
+    font-size: 0.89em;
+}
+
+.figure_link {
+    font-family: "Heebo";
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(#259385, #159685);
+    border: 0;
+    border-radius: 30px;
+    width: 11vw;
+    height: 6vh;
+    font-size: 1.5em;
+    text-align: center;
+    align-content: center;
+    margin-top: 5vh;
+    padding: 1%;
+}
+
+.practice_section {
+    background-image: url("./../images/practice-bg.svg");
+    background-repeat: no-repeat;
+    background-position: right 1%;
+    height: 1075px;
+    border: 1px solid black;
+}
+
+.practice_section_title {
+    font-family: "Merienda One";
+    font-size: 3.4em;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+.practice_section_text {
+}
+
+.practice_section_img {
+    float: left;
+}
+
+.practice_section_link {
+}

@@ -62,7 +62,7 @@
     height: 74em;
 }
 
-.title {
+.main_title {
     font-family: "Merienda One";
     color: #ffffff;
     font-weight: 400;
@@ -73,7 +73,7 @@
 
 .text {
     font-family: "Heebo";
-    color: #000000;
+    color: #00000080;
     font-size: 1.5em;
     text-align: center;
 }
@@ -170,7 +170,7 @@
     border: 1px solid black;
 }
 
-.practice_section_title {
+.section_title {
     font-family: "Merienda One";
     font-size: 3.4em;
     font-weight: 400;
@@ -179,12 +179,50 @@
     margin-top: 8vh;
 }
 
-.practice_section_text {
-}
-
 .practice_section_img {
     float: left;
 }
 
 .practice_section_link {
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59 209 187/0.2);
+    background-image: url("./../images/footer-bg.svg");
+    background-repeat: no-repeat;
+    height: 425px;
+}
+
+.footer_logo {
+    /* margin-left: 7vw; */
+    margin-top: 12vh;
+    width: 8vw;
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+    margin: 4.5vh 0;
+    list-style-type: none;
+}
+
+.footer_nav-link {
+    font-family: "Heebo";
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 0 1.4vw;
+    color: #000000;
+    border-right: 2px solid black;
+}
+
+.border-none {
+    border-right: none;
+}
+
+.social_network {
+    margin-right: 1.5vw;
+    text-decoration: none;
 }

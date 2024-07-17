@@ -199,6 +199,20 @@
     margin: 5% 7%;
 }
 
+.music_section {
+    background-image: url("./../images/music_section-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+.music_section_img {
+    float: right;
+    width: 36vw;
+    margin: 0 9%;
+    border: 1px solid black;
+}
+
 .footer {
     display: flex;
     flex-direction: column;

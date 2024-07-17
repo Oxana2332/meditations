@@ -34,7 +34,7 @@
 
 .header_nav-link {
     margin-left: 4.5vw;
-    font-family: "Heebo";
+    font-family: "Heebo", "Heebo Medium", sans-serif;
     text-decoration: none;
     font-size: 1.7em;
     color: #000000;
@@ -42,7 +42,7 @@
 
 .active {
     margin-left: 23vw;
-    font-family: "Heebo Medium";
+    font-family: "Heebo Medium", "Heebo", sans-serif;
     font-size: 2.1em;
     color: #1a7f72;
     text-decoration-line: underline;
@@ -59,11 +59,12 @@
     flex-direction: column;
     background-image: url("./../images/main-bg.svg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 74em;
 }
 
 .main_title {
-    font-family: "Merienda One";
+    font-family: "Merienda One", Bentham, cursive;
     color: #ffffff;
     font-weight: 400;
     font-size: 4.5em;
@@ -72,14 +73,14 @@
 }
 
 .text {
-    font-family: "Heebo";
+    font-family: "Heebo", "Heebo Medium", sans-serif;
     color: #00000080;
     font-size: 1.5em;
     text-align: center;
 }
 
 .button {
-    font-family: "Heebo";
+    font-family: "Heebo", "Heebo Medium", sans-serif;
     color: #ffffff;
     background: linear-gradient(#259385, #159685);
     border: 0;
@@ -102,8 +103,6 @@
 .second_section {
     display: flex;
     height: 77vh;
-    font-family: "Heebo";
-    color: #000000;
 }
 
 .bg {
@@ -135,19 +134,23 @@
     align-self: center;
 }
 
-.figure_title {
+.subtitle {
+    font-family: "Heebo Medium", "Heebo", sans-serif;
+    font-weight: 500;
     font-size: 2em;
     margin-bottom: 1vh;
     margin-top: 3vh;
 }
 
-.figure_text {
+.description {
+    font-family: "Heebo", "Heebo Medium", sans-serif;
+    color: #000000;
     text-align: center;
     font-size: 0.89em;
 }
 
 .figure_link {
-    font-family: "Heebo";
+    font-family: "Heebo", "Heebo Medium", sans-serif;
     color: #ffffff;
     text-decoration: none;
     background: linear-gradient(#259385, #159685);
@@ -166,12 +169,11 @@
     background-image: url("./../images/practice-bg.svg");
     background-repeat: no-repeat;
     background-position: right 1%;
-    height: 1075px;
-    border: 1px solid black;
+    height: 110vh;
 }
 
 .section_title {
-    font-family: "Merienda One";
+    font-family: "Merienda One", Bentham, cursive;
     font-size: 3.4em;
     font-weight: 400;
     line-height: 1.3em;
@@ -181,9 +183,18 @@
 
 .practice_section_img {
     float: left;
+    width: 38.5vw;
+    margin: 2.5% 7%;
+}
+
+.text-start {
+    text-align: start;
 }
 
 .practice_section_link {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 7%;
 }
 
 .footer {
@@ -192,12 +203,12 @@
     align-items: center;
     background-color: rgb(59 209 187/0.2);
     background-image: url("./../images/footer-bg.svg");
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 425px;
+    height: 46vh;
 }
 
 .footer_logo {
-    /* margin-left: 7vw; */
     margin-top: 12vh;
     width: 8vw;
 }
@@ -210,7 +221,7 @@
 }
 
 .footer_nav-link {
-    font-family: "Heebo";
+    font-family: "Heebo", "Heebo Medium", sans-serif;
     text-decoration: none;
     font-size: 1.7em;
     padding: 0 1.4vw;

@@ -169,7 +169,8 @@
 .practice_section {
     background-image: url("./../images/practice-bg.svg");
     background-repeat: no-repeat;
-    background-position: right 1%;
+    background-size: 18%;
+    background-position: bottom 1px right;
     height: 110vh;
 }
 
